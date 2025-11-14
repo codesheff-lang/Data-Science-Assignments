@@ -1,0 +1,17 @@
+Problem Statement : Hospital Patient Data Analysis
+Context:
+A hospital maintains patient records including admission details, department, diagnosis, doctor, and bill amount. You have two datasets: one with patient info and another with billing details. Some patients have blank bill amounts, and there are multiple rows for the same patient due to follow-ups.
+Tasks:
+1.	Load the patient dataset and show summary with info().
+2.	Select only the columns relevant for billing: ['PatientID', 'Department', 'Doctor', 'BillAmount'].
+3.	Drop administrative columns like ['ReceptionistID', 'CheckInTime'].
+4.	Use groupby to find total bill amount per department.
+5.	Remove duplicate patient records based on PatientID.
+6.	Fill missing BillAmount values with the mean bill amount.
+7.	Merge the billing dataset with patient dataset on PatientID.
+8.	Concatenate an additional DataFrame that contains new patients for the current week (row-wise).
+9.	Concatenate new billing category columns like ['InsuranceCovered', 'FinalAmount'] (column-wise).
+Expected Outcome:
+•	Final cleaned dataset with accurate billing info.
+•	All missing values handled, merged dataset across PatientID.
+•	Ability to perform further analytics on department-wise revenue or doctor performance.

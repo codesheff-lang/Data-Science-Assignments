@@ -1,0 +1,20 @@
+Assignment Tasks:
+1. State the Hypotheses statement:
+2. Calculate the Test Statistic:
+Use the following formula to calculate the test statistic(z):
+where:
+●	ˉxˉ = sample mean weekly cost (Rs. 3,050)
+●	μ = theoretical mean weekly cost according to the cost model (W = $1,000 + $5X for X = 600 units)
+●	σ = 5*25 units
+●	n = sample size (25 restaurants)
+3. Determine the Probability and compare:
+Using the alpha level of 5% (α = 0.05),
+4. Make a Decision:
+Compare the test statistic with the critical value to decide whether to reject the null hypothesis.
+5. Conclusion:
+Based on the decision in step 4, conclude whether there is strong evidence to support the restaurant owners' claim that the weekly operating costs are higher than the model suggests.
+
+Submission Guidelines:
+●	Prepare a python file detailing each step of your hypothesis testing process.
+●	Include calculations for the test statistic and the critical value.
+●	Provide a clear conclusion based on your analysis.
